@@ -4,9 +4,11 @@ target
 # Local settings
 .soroban
 .stellar
+temp_auto_push.bat
 
 # Generated TypeScript bindings output
 # Keep the packages/ directory itself (via packages/.gitkeep) but ignore
 # generated content so developers run generate-bindings.sh locally.
 packages/*/
-!packages/.gitkeep
+!packages/.gitkeep.gitignore
+branch_structure.json
